@@ -1,0 +1,179 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-19T07:31:26.916Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5982800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 112900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 202199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTag()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate login function valid and invalid datas",
+        "description": "",
+        "id": "to-verfy-login-functionality;to-validate-login-function-valid-and-invalid-datas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 165200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 94600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 284600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 225899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11489420900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To user launch chrome browser",
+            "match": {
+              "location": "StepDefinition.toUserLaunchChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5582255000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To user enter \"java\" and \"111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"111\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginPageStepDef.toUserEnterAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226492699,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To user Click loginbutton",
+            "match": {
+              "location": "LoginPageStepDef.toUserClickLoginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),\u0027Find\u0027)]\"}\n  (Session info: chrome\u003d114.0.5735.199)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-RIGKATV\u0027, ip: \u0027192.168.1.19\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\\Users\\zubee\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d9fc69d90ecb896bf079bcbc6280624e\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(text(),\u0027Find\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.stepdefiniton.StepDefinition.toUserVerifyValid(StepDefinition.java:51)\r\n\tat ✽.To user verify valid(file:src/test/resources/Featurefiles/loginPage.feature:10)\r\n",
+              "duration": 7585412899,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "To user verify valid",
+            "match": {
+              "location": "StepDefinition.toUserVerifyValid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To verfy Login functionality",
+    "description": "",
+    "id": "to-verfy-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefiles/loginPage.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
