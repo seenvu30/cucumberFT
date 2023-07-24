@@ -20,8 +20,9 @@ public class LoginPageStepDef extends HelperClass{
 	public void toUserClickLoginbutton() {
 		FbLoginPojoClass f=new FbLoginPojoClass();
 		btnClick(f.getLoginBTn());
+		System.out.println("zubair-1");
 	}
 	
-	//System.out.println(1st Update);
+	
 
 }
